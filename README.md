@@ -9,7 +9,6 @@ Bu repo [kodluyoruz](https://kodluyoruz.org/tr/kodluyoruz/) Front-End Eğitimind
 ---
 
 öncelikle projeyi clonelayın.
-(Buraya sizin reponuzdan aldığınız link gelecek)
 
 ```
 https://github.com/Gokalpdemir/kodluyoruzilkrepo.git
@@ -30,7 +29,7 @@ code.
 
 ---
 
-pull requestler kabul edilir.Büyük değişiklikler için,lütfen çnce neyi değiştirmek istediğinizi tartışmak için bir konu açınız
+pull requestler kabul edilir . Büyük değişiklikler için , lütfen önce neyi değiştirmek istediğinizi tartışmak için bir konu açınız.
 
 ## License
 
