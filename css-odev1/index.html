@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tekno Market</title>
+    <style>
+      li {
+        display: inline-block;
+        border-style: inset;
+        text-align: center;
+        font-size: 30px;
+        margin: 20px;
+        
+      }
+      body {
+        background-color: #ffffff;
+      }
+      h1 {
+        color: #fafafa;
+      }
+      
+      a {
+        text-decoration: none;
+      }
+      .blink {
+        animation: blinker 0.6s linear infinite;
+        color: #15133c;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: sans-serif;
+      }
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-radius: 10px;
+        text-align: center;
+      }
+      img{width: 100px;}
+      #ortala{text-align: center;}
+    </style>
+  </head>
+  <body>
+    <header style="background-color: #e97777">
+      <h1 style="text-align: center; font-size: 50px">Tekno Market</h1>
+    </header>
+
+    <nav style="text-align: center">
+      <ul>
+        <li><a href="index.html">Ana Sayfa</a></li>
+
+        <li><a href="telefon.html">Telefonlar</a></li>
+
+        <li><a href="bilgisayar.html">Bilgisayarlar</a></li>
+      </ul>
+    </nav>
+    <div id="ortala">
+      <h2 style="font-size: 40px" class="blink">Flaş indirim ! ! !</h2>
+      <table style="width: 10cm; " align="center">
+        <thead>
+          <tr>
+            <th>Telefon</th>
+            <th>bilgisayar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="telefon.html"
+                ><img src="images/iphone.jpg" alt="" width="100px"
+              /></a>
+            </td>
+            <td>
+              <a href="bilgisayar.html"
+                ><img
+                  src="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/125035428/125035428_0_MC/63706558.jpg"
+                  alt=""
+              /></a>
+            </td>
+            <tr><td><a href="telefon.html"><img src="https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/780010110/780010110_0_MC/926082248d6c4883a235bd8fd6d4d8dd.jpg" alt=""></a></td><td>
+                <a href="bilgisayar.html"
+                  ><img src="images/macbook.jpg" alt="" width="100px"
+                /></a>
+              </td></tr>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
