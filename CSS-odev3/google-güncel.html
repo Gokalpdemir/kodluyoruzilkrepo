@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      body {
+        flex-direction: column;
+        display: flex;
+      }
+      #ust-bar {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 8px;
+        margin-top: 10px;
+      }
+      #ust-bar img {
+        height: 30px;
+        vertical-align: middle;
+        border-radius: 50px;
+      }
+      #ust-bar a {
+        color: black;
+        text-decoration: none;
+        font-size: 12px;
+        display: inline-block;
+        cursor: pointer;
+        margin-right: 20px;
+      }
+      #ust-bar a:hover {
+        text-decoration: underline;
+      }
+
+      #mid {
+        margin-top: 90px;
+        text-align: center;
+      }
+      .logo {
+        margin-bottom: 30px;
+      }
+      .search {
+        width: 580px;
+        margin: 0px auto;
+        position: relative;
+        margin-top: -8px;
+        text-align: center;
+      }
+
+      .search__input {
+        display: block;
+        border: 1px solid #ddd;
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 16px;
+        padding: 13px;
+        padding-left: 45px;
+        border-radius: 25px;
+        width: 100%;
+        outline: none;
+      }
+      .buyutec {
+        position: absolute;
+        width: 40px;
+        opacity: 0.9;
+        top: 7px;
+        left: 14px;
+      }
+      .cam {
+        position: absolute;
+        right: 10px;
+        top: 14px;
+        width: 24px;
+      }
+      .mic {
+        position: absolute;
+        width: 24px;
+        top: 12px;
+        right: 41px;
+      }
+      .key {
+        position: absolute;
+        top: 9px;
+        width: 40px;
+        right: 69px;
+      }
+      .s-button {
+        border: 1px solid transparent;
+        padding: 9px 15px;
+        color: rgb(0, 0, 0);
+        font-size: 14px;
+        border-radius: 4px;
+        display: inline-block;
+        margin-right: 10px;
+        margin-top: 28px;
+        cursor: pointer;
+      }
+      .s-button:hover {
+        border: 1px solid #aaa;
+      }
+      #bottom {
+        display: flex;
+      }
+      footer {
+        background-color: #f2f2f2;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        height: 80px;
+      }
+      .a-bilgi {
+        border-top: 1px solid #ddd;
+        display: flex;
+      }
+      .a-bilgi a {
+        color: #5f6368;
+        display: inline-block;
+        padding: 12px 11px;
+        font-size: 14px;
+        text-decoration: none;
+      }
+      .a-bilgi a:hover {
+        text-decoration: underline;
+      }
+      .altbilgi-1 {
+        padding-left: 18px;
+      }
+      .altbilgi-2 {
+        padding-left: 160px;
+      }
+      .altbilgi-3 {
+        padding-left: 302px;
+      }
+      h3 {
+        color: rgba(0, 0, 0, 0.54);
+        font-size: 13px;
+        line-height: 10px;
+        font-weight: 200;
+        padding-left: 29px;
+        border: 1px solid #eee;
+        padding: 15px 30px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="ust-bar">
+      <nav>
+        <a href="#">Gmail</a>
+        <a href="">Görseller</a>
+        <svg
+          style="width: 24px"
+          class="gb_0e"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"
+          ></path>
+        </svg>
+        <path
+          d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"
+        ></path>
+        <img src="/images/hesapk.png" alt="" />
+      </nav>
+    </div>
+    <section id="mid">
+      <div class="logo">
+        <img src="images/google-logo.png" alt="" width="280" />
+      </div>
+
+      <div class="search">
+        <input type="text" class="search__input" />
+        <img src="images/büyütec.png" alt="" class="buyutec" />
+        <img src="images/klavye.png" alt="" class="key" />
+        <img src="images/mic.png" alt="" class="mic" />
+        <img src="images/cam.png" alt="" class="cam" />
+        <input type="submit" class="s-button" value="Google'da Ara" />
+        <input
+          type="submit"
+          class="s-button"
+          value="Kendimi Şanslı Hissediyorum"
+        />
+      </div>
+    </section>
+    <section id="bottom">
+      <footer>
+        <h3>Türkiye</h3>
+        <div class="a-bilgi">
+          <div class="altbilgi-1">
+            <a href="#">Hakkında</a>
+            <a href="#">Reklam</a>
+            <a href="#">İşletme</a>
+            <a href="#">Arama nasıl çalışır</a>
+          </div>
+          <div class="altbilgi-2">
+            <a href="#"
+              ><img src="/images/yaprak.png" alt="" width="12px" /> 2007'den bu
+              yana karbon nötr</a
+            >
+          </div>
+          <div class="altbilgi-3">
+            <a href="#">Gizlilik</a>
+            <a href="#">şartlar</a>
+            <a href="#">ayarlar</a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
